@@ -24,8 +24,8 @@ public class MemoryController implements IMemoryController {
 	}
 
 	@Override
-	public void put(String identifier, Object value) {
-		memory.put(identifier,(Double) value);
+	public void put(String identifier, Double value) {
+		memory.put(identifier, value);
 		
 	}
 

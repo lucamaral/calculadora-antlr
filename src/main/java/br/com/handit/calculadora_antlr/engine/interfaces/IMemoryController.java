@@ -4,5 +4,5 @@ public interface IMemoryController {
 	
 	public Double get(String identifier);
 
-	public void put(String identifier, Object value);
+	public void put(String identifier, Double value);
 }
