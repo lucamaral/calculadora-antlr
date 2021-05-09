@@ -1,12 +1,12 @@
-package br.com.handit.calculadora_antlr;
+package br.com.handit.calculadora;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 
-import parsers.CalculadoraDesafio1Lexer;
-import parsers.CalculadoraDesafio1Parser;
-import parsers.CalculadoraDesafio2Lexer;
-import parsers.CalculadoraDesafio2Parser;
+import br.com.handit.calculadora.parser.CalculadoraDesafio1Lexer;
+import br.com.handit.calculadora.parser.CalculadoraDesafio1Parser;
+import br.com.handit.calculadora.parser.CalculadoraDesafio2Lexer;
+import br.com.handit.calculadora.parser.CalculadoraDesafio2Parser;
 
 public class Calculadora {
 
